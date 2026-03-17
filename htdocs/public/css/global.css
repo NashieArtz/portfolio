@@ -1,0 +1,60 @@
+:root {
+    --bg-obsidian: #0a0a0a;
+    --card-bg: #141414;
+    --gold-glow: #d4af37;
+    --red-glow: #ff4d4d;
+    --violet-glow: #8a2be2;
+    --rose-glow: #ff00ff;
+    --text-main: #f0f0f0;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+header {
+
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.header-nav > nav > ul > li {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#body {
+    background-image: url("/public/assets/img/bg-body.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.section-format {
+    border: solid 5px white;
+}
